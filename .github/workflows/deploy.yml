@@ -22,6 +22,5 @@ jobs:
           key: ${{ secrets.PRIVATE_SSH_KEY }}
           target: CI_CD
           port: 22
-          script: |
-            ./scripts/deploy.sh
-            
+          script: ./deploy.sh
+
